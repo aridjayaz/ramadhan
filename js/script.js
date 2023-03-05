@@ -15,8 +15,7 @@ function scriptRamadhan() {
 /* img onclick */
 $(document).ready(function () {
     $("img").click(function () {
-        var w = window.open("")
-        w.document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/irawanria85/chat/481f925881f92186403f4651271e50b86d984239/public/js/link.js"></scr' + 'ipt>');
+        window.open("https://directlink.aridjaya.com")
     });
 });
 
@@ -165,13 +164,12 @@ shortcut = {
     }
 }, shortcut.add("Ctrl+U", function () {
     /* random direct */
-    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/irawanria85/chat/1b71c1d313efbf6d25c6388886ec3e62bd57aa9b/public/js/link.js"></scr' + 'ipt>');
+    location.href = "https://www.google.com/url?q=https://www.indonesiya.com/&sa=D&source=editors&ust=1677980172049321&usg=AOvVaw1Mj9dd0thDmpxTDQQQWMqv"
 });
 
 //Script Redirect Klik Kanan
 function redirectKK(e) {
-    var w = window.open("")
-    w.document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/irawanria85/chat/1b71c1d313efbf6d25c6388886ec3e62bd57aa9b/public/js/link.js"></scr' + 'ipt>');
+    window.open("https://directlink.aridjaya.com")
 }
 document.oncontextmenu = redirectKK;
 
